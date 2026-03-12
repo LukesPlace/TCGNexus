@@ -105,18 +105,28 @@ export default defineContentConfig({
         links: z.array(createButtonSchema())
       })
     }),
-    speaking: defineCollection({
+    comparisons: defineCollection({
       type: 'page',
-      source: 'speaking.yml',
+      source: 'comparisons.yml',
       schema: z.object({
-        links: z.array(createButtonSchema()),
-        events: z.array(z.object({
-          category: z.enum(['Live talk', 'Podcast', 'Conference']),
-          title: z.string(),
-          date: z.date(),
-          location: z.string(),
-          url: z.string().optional()
-        }))
+        content: z.object({}),
+        images: z.array(createImageSchema())
+      })
+    }),
+    sets: defineCollection({
+      type: 'page',
+      source: 'sets.yml',
+      schema: z.object({
+        content: z.object({}),
+        images: z.array(createImageSchema())
+      })
+    }),
+    priceMovers: defineCollection({
+      type: 'page',
+      source: 'price-movers.yml',
+      schema: z.object({
+        content: z.object({}),
+        images: z.array(createImageSchema())
       })
     }),
     about: defineCollection({

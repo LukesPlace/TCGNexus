@@ -1,6 +1,6 @@
 <script setup lang="ts">
-const { data: page } = await useAsyncData("about", () => {
-  return queryCollection("about").first();
+const { data: page } = await useAsyncData("comparisons", () => {
+  return queryCollection("comparisons").first();
 });
 if (!page.value) {
   throw createError({
@@ -25,7 +25,6 @@ useSeoMeta({
     <UPageHero
       :title="page.title"
       :description="page.description"
-      orientation="horizontal"
       :ui="{
         container: 'lg:flex sm:flex-row items-center',
         title: '!mx-0 text-left',
@@ -34,12 +33,5 @@ useSeoMeta({
       }"
     >
     </UPageHero>
-    <UPageSection
-      :ui="{
-        container: '!pt-0',
-      }"
-    >
-      <MDC :value="page.content" unwrap="p" />
-    </UPageSection>
   </UPage>
 </template>

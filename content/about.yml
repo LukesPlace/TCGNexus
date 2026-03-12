@@ -1,0 +1,44 @@
+title: About TCG Nexus
+description: Learn more about TCG Nexus, why it was created, and the goal of making trading card game data clearer and easier to explore.
+content: |
+  **TCG Nexus** is a small project built out of a love for trading card games and data. The goal is simple: create a clean, easy-to-use place where collectors and players can explore TCG sets, compare cards, and track trends across the hobby.
+
+  Like many collectors, I often found myself jumping between multiple sites to answer simple questions:  
+  *Which version of a card is rarer?*  
+  *How do different prints compare?*  
+  *Which cards are moving in price right now?*
+
+  TCG Nexus aims to bring those answers together in one place.
+
+  ### What This Site Focuses On
+
+  The focus of TCG Nexus is clarity. Rather than overwhelming users with huge databases or complicated filters, the site aims to present useful information in a way that's **simple, visual, and easy to navigate**.
+
+  Some of the things you’ll find here include:
+
+  - **Set explorations** to browse and understand different releases  
+  - **Card comparisons** to see variations between prints  
+  - **Price movers** highlighting interesting changes in the market  
+  - **Clean visual layouts** inspired by modern card UI and TCG aesthetics  
+
+  ### Why I Built It
+
+  TCG Nexus is also a **personal development project**. The site is built with **Nuxt, Vue, and Tailwind**, and serves as a playground for experimenting with modern web design, UI systems, and performance-focused development.
+
+  It combines two interests:
+  - building polished web experiences  
+  - exploring trading card game data
+
+  ### The Vision
+
+  Over time, the goal is to expand TCG Nexus into a richer tool for collectors and players, adding more sets, deeper comparisons, and interesting insights about the hobby.
+
+  If you enjoy trading card games, data visualisation, or just clean web design, I hope you find something interesting here.
+
+  Thanks for visiting!
+
+images:
+  - src: https://images.unsplash.com/photo-1613771404784-3a5686aa2be3?q=80&w=1600&auto=format&fit=crop
+    alt: Trading cards on a table
+  - src: https://images.unsplash.com/photo-1598550880863-4e8aa3d0f8b1?q=80&w=1600&auto=format&fit=crop
+    alt: Developer workspace with laptop

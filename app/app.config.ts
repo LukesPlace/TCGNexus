@@ -1,8 +1,8 @@
 export default defineAppConfig({
   global: {
     picture: {
-      dark: '/icon.png',
-      light: '/icon.png',
+      dark: '/icons/TrimmedNexusIconWhite.png',
+      light: '/icons/TrimmedNexusIcon.png',
       alt: 'My profile picture'
     },
     meetingLink: 'https://cal.com/',
@@ -23,7 +23,8 @@ export default defineAppConfig({
     }
   },
   footer: {
-    credits: `Built with Nuxt UI • © ${new Date().getFullYear()}`,
+  credits: `TCG Nexus • © ${new Date().getFullYear()}
+    Pokémon © Nintendo / Game Freak / Creatures Inc. • Unofficial fan project`,
     colorMode: false,
     links: [{
       'icon': 'i-simple-icons-discord',

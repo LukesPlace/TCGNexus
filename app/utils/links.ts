@@ -6,22 +6,22 @@ export const navLinks: NavigationMenuItem[] = [{
   to: '/'
 }, {
   label: 'Sets',
-  icon: 'i-lucide-folder',
+  icon: 'i-lucide-layers',
   to: '/sets'
 }, {
   label: 'Comparisons',
-  icon: 'i-lucide-file-text',
+  icon: 'i-lucide-git-compare',
   to: '/comparisons'
 }, {
   label: 'Price Movers',
-  icon: 'i-lucide-mic',
+  icon: 'i-lucide-trending-up',
   to: '/price-movers'
 }, {
   label: 'Blog',
-  icon: 'i-lucide-user',
+  icon: 'i-lucide-book-text',
   to: '/blog'
 }, {
   label: 'About',
-  icon: 'i-lucide-user',
+  icon: 'i-lucide-info',
   to: '/about'
 }]

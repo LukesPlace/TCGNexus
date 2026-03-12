@@ -16,8 +16,10 @@ defineProps<{
       color="neutral"
       class="bg-muted/80 backdrop-blur-sm rounded-full px-2 sm:px-4 border border-muted/50 shadow-lg shadow-neutral-950/5"
       :ui="{
-        link: 'px-3 py-1 text-sm font-semibold tracking-wide transition-all duration-200 hover:text-yellow-400 hover:scale-105 hover:drop-shadow-[0_0_6px_rgba(250,204,21,0.6)] data-[active=true]:text-yellow-400 data-[active=true]:drop-shadow-[0_0_6px_rgba(250,204,21,0.7)]',
-        linkLeadingIcon: 'hidden',
+        link: 'px-3 py-1 text-xl font-semibold tracking-wide transition-all duration-200 hover:scale-105 hover:drop-shadow-[0_0_6px_rgba(250,204,21,0.6)] data-[active=true]:text-yellow-400 data-[active=true]:drop-shadow-[0_0_6px_rgba(250,204,21,0.7)] hover:text-black dark:hover:text-white',
+        linkLeadingIcon:
+          'sm:hidden size-6 mr-1 transition-transform group-hover:scale-110',
+        linkLabel: 'hidden sm:inline',
       }"
     >
       <template #list-trailing>

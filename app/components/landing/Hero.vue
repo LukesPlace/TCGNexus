@@ -9,7 +9,7 @@ defineProps<{
 <template>
   <UPageHero
     :ui="{
-      headline: 'flex items-center justify-center',
+      headline: 'font-heading flex items-center justify-center',
       title: 'text-shadow-md max-w-2xl mx-auto',
       description: 'max-w-xl mx-auto',
       links: 'mt-6 flex-wrap justify-center gap-3',
@@ -23,12 +23,6 @@ defineProps<{
         :transition="{ duration: 0.5 }"
       >
         <div class="relative">
-          <img
-            src="/icon.png"
-            alt="TCG Nexus Logo"
-            class="size-56 rounded-full ring ring-default ring-offset-4 ring-offset-(--ui-bg) shadow-xl"
-          />
-
           <!-- subtle glow -->
           <div class="absolute inset-0 rounded-full blur-2xl opacity-300" />
         </div>
@@ -107,8 +101,7 @@ defineProps<{
       >
         <NuxtImg
           width="234"
-          height="234"
-          class="rounded-lg aspect-square object-cover shadow-xl hover:scale-105 transition-transform hover:shadow-purple-500/30"
+          class="rounded-lg object-cover shadow-xl hover:scale-105 transition-transform"
           :class="index % 2 === 0 ? '-rotate-2' : 'rotate-2'"
           v-bind="img"
         />
