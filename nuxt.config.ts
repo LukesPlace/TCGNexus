@@ -8,9 +8,6 @@ export default defineNuxtConfig({
   image: {
     provider: 'none'
   },
-  nitro: {
-    preset: 'github_pages'
-  },
   modules: [
     '@nuxt/eslint',
     '@nuxt/image',
