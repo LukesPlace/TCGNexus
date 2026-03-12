@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   ssr: false,
   app: {
     baseURL: '/TCGNexus/',
-    buildAssetsDir: '/_nuxt/'
+    buildAssetsDir: '_nuxt/'
   },
   image: {
     provider: 'none'
