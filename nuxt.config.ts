@@ -1,5 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  ssr: true,
+  app: {
+    baseURL: '/tcg-nexus/'
+  },
+  nitro: {
+    preset: 'github_pages'
+  },
   modules: [
     '@nuxt/eslint',
     '@nuxt/image',

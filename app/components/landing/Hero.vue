@@ -63,7 +63,7 @@ defineProps<{
             to="/sets"
             size="lg"
             color="primary"
-            icon="i-lucide-box"
+            icon="i-lucide-layers"
             label="Explore Sets"
           />
 
