@@ -4,7 +4,7 @@ const biggestPriceChange = [
   {
     id: 1,
     name: "Mega Charizard",
-    image: "/hero/Mega-charizard.png",
+    image: "hero/Mega-charizard.png",
     oldPrice: "$300",
     newPrice: "$350",
     change: 16.7,
@@ -12,7 +12,7 @@ const biggestPriceChange = [
   {
     id: 2,
     name: "Pikachu",
-    image: "/hero/pikachu.png",
+    image: "hero/Pikachu.png",
     oldPrice: "$50",
     newPrice: "$40",
     change: -20,
@@ -20,7 +20,7 @@ const biggestPriceChange = [
   {
     id: 3,
     name: "Squirtle",
-    image: "/hero/Squirtle.png",
+    image: "hero/Squirtle.png",
     oldPrice: "$120",
     newPrice: "$150",
     change: 25,

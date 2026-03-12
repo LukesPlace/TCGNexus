@@ -15,13 +15,13 @@ hero:
       color: "neutral"
 
   images:
-    - src: /hero/bulb.png
+    - src: hero/Bulb.png
       alt: Bulbasaur Pokémon Card
-    - src: /hero/Mega-charizard.png
+    - src: hero/Mega-charizard.png
       alt: Mega Charizard Pokémon Card
-    - src: /hero/Pikachu.png
+    - src: hero/Pikachu.png
       alt: Pikachu Pokémon Card
-    - src: /hero/Squirtle.png
+    - src: hero/Squirtle.png
       alt: Squirtle Pokémon Card
 
 about:

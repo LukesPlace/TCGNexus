@@ -8,11 +8,11 @@ import { navLinks } from "../utils/links";
       <div class="absolute inset-0 -z-10 holo-bg opacity-40"></div>
       <NuxtLink
         to="/"
-        class="hidden lg:block pt-14 absolute left-4 -translate-y-1/2 rounded-full"
+        class="hidden lg:block pt-14 absolute left-4 -translate-y-1/2 rounded-full w-64"
       >
         <UColorModeImage
-          light="icons/TrimmedNexusIcon.png"
-          dark="icons/TrimmedNexusIconWhite.png"
+          light="/TCGNexus/icons/TrimmedNexusIcon.png"
+          dark="/TCGNexus/icons/TrimmedNexusIconWhite.png"
           alt="TCG Nexus Logo"
         />
       </NuxtLink>
