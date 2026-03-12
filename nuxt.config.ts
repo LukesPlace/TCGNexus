@@ -1,8 +1,15 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  ssr: true,
+  ssr: false,
   app: {
-    baseURL: '/TCGNexus/'
+    baseURL: '/TCGNexus/',
+    buildAssetsDir: '/_nuxt/'
+  },
+  image: {
+    provider: 'none'
+  },
+  nitro: {
+    preset: 'github_pages'
   },
   modules: [
     '@nuxt/eslint',
@@ -13,24 +20,11 @@ export default defineNuxtConfig({
     'nuxt-og-image',
     'motion-v/nuxt'
   ],
-
   devtools: {
     enabled: true
   },
-
   css: ['~/assets/css/main.css'],
-
   compatibilityDate: '2024-11-01',
-
-  nitro: {
-    preset: 'github_pages',
-    prerender: {
-      routes: [
-        '/'
-      ],
-      crawlLinks: true
-    }
-  },
   eslint: {
     config: {
       stylistic: {
