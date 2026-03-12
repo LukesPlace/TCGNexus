@@ -1,0 +1,116 @@
+seo:
+  title: "TCG Nexus"
+  description: "Compare Pokémon TCG sets, discover chase cards, and learn which products are worth opening. TCG Nexus helps collectors and players make smarter pulls."
+
+title: "Better pulls start with better information."
+description: "Compare Pokémon TCG sets, discover chase cards, and explore collector guides."
+
+hero:
+  links:
+    - label: "Compare Sets"
+      to: "/sets"
+      color: "primary"
+    - label: "Latest Articles"
+      to: "/blog"
+      color: "neutral"
+
+  images:
+    - src: /hero/bulb.png
+      alt: Bulbasaur Pokémon Card
+    - src: /hero/Mega-charizard.png
+      alt: Mega Charizard Pokémon Card
+    - src: /hero/Pikachu.png
+      alt: Pikachu Pokémon Card
+    - src: /hero/Squirtle.png
+      alt: Squirtle Pokémon Card
+
+about:
+  title: "About TCG Nexus"
+  description: |
+    Pokémon TCG collecting has grown massively, but it can be difficult to know which sets, products, and cards are worth chasing.
+
+    TCG Nexus was created to help collectors and players make better decisions before opening packs. Here you'll find Pokémon TCG set comparisons, product breakdowns, chase card guides, and insights into the trading card market.
+
+    Whether you're a casual collector, competitive player, or long-term investor, TCG Nexus aims to give you the information you need to build your collection smarter.
+
+experience:
+  title: What You'll Find Here
+  items:
+    - position: "Set Comparisons"
+      date: ""
+      company:
+        name: "Compare Pokémon TCG expansions side-by-side"
+        logo: "i-ph-cards"
+        url: "/sets"
+        color: "#60A5FA"
+
+    - position: "Collector Guides"
+      date: ""
+      company:
+        name: "Learn which products are worth opening"
+        logo: "i-ph-book-open"
+        url: "/blog"
+        color: "#F59E0B"
+
+    - position: "Chase Card Insights"
+      date: ""
+      company:
+        name: "Discover the most sought-after cards in each set"
+        logo: "i-ph-star"
+        url: "/sets"
+        color: "#EF4444"
+
+testimonials:
+  - quote: "TCG Nexus made it much easier to decide which Pokémon sets to open. The comparisons and guides helped me avoid wasting money on products with poor pull value."
+    author:
+      name: "Alex R."
+      description: "Pokémon TCG Collector"
+
+  - quote: "As someone who collects both for fun and long-term value, having clear information about sets and chase cards is incredibly useful."
+    author:
+      name: "Jordan M."
+      description: "TCG Enthusiast"
+
+  - quote: "Finally a site that explains Pokémon sets in a simple way. Great for both beginners and experienced collectors."
+    author:
+      name: "Sam K."
+      description: "Pokémon TCG Player"
+
+blog:
+  title: "Latest Pokémon TCG Guides"
+  description: "News, set breakdowns, and collector insights."
+
+faq:
+  title: Pokémon TCG FAQ
+  description: Answers to common questions about collecting and opening Pokémon cards.
+
+  categories:
+    - title: Pokémon TCG Sets
+      questions:
+        - label: What is a Pokémon TCG set?
+          content: |
+            A Pokémon TCG set is a collection of cards released together as part of an expansion. Each set includes a mix of common cards, rare cards, and chase cards such as Secret Rares or Special Illustration Rares.
+
+        - label: What are chase cards?
+          content: |
+            Chase cards are the most desirable cards in a set. They are typically rare cards with special artwork, alternate illustrations, or powerful competitive value.
+
+        - label: How many cards are usually in a set?
+          content: |
+            Modern Pokémon sets typically contain between 180 and 270 cards including secret rares.
+
+    - title: Opening Products
+      questions:
+        - label: What is the difference between a Booster Box and an Elite Trainer Box?
+          content: |
+            A Booster Box contains 36 booster packs and is usually the most efficient way to open large numbers of packs.
+
+            An Elite Trainer Box contains fewer packs (usually 9) but includes accessories like sleeves, dice, and storage boxes.
+
+        - label: Which Pokémon sets are best to open?
+          content: |
+            The best sets to open usually have popular Pokémon, valuable chase cards, or strong pull rates. TCG Nexus provides comparisons to help you decide which sets are worth opening.
+
+        - label: Is opening packs profitable?
+          content: |
+            Opening packs is primarily for fun and collecting. While some rare cards can be very valuable, most packs will not return their purchase price. It's best to open packs for enjoyment rather than investment.

@@ -1,0 +1,47 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@source "../../../content/**/*";
+
+@theme static {
+  --font-sans: 'Public Sans', sans-serif;
+  --font-serif: 'Instrument Serif', serif;
+}
+
+:root {
+  --ui-container: var(--container-4xl);
+
+  ::selection {
+    color: #282a30;
+    background-color: #c8c8c8;
+  }
+}
+
+.dark {
+  ::selection {
+    color: #ffffff;
+    background-color: #474747;
+  }
+}
+
+
+.holo-bg {
+  background:
+    radial-gradient(circle at 20% 30%, rgba(255, 215, 0, 0.4), transparent 40%),
+    radial-gradient(circle at 80% 40%, rgba(255, 0, 80, 0.35), transparent 45%),
+    radial-gradient(circle at 40% 80%, rgba(0, 180, 255, 0.35), transparent 45%),
+    radial-gradient(circle at 70% 70%, rgba(120, 255, 120, 0.35), transparent 45%),
+    radial-gradient(circle at 50% 50%, rgba(180, 120, 255, 0.35), transparent 45%);
+  
+  filter: blur(80px);
+  animation: holoShift 14s ease-in-out infinite alternate;
+}
+
+@keyframes holoShift {
+  0% {
+    transform: translateX(-3%) translateY(-2%) scale(1);
+  }
+  100% {
+    transform: translateX(3%) translateY(2%) scale(1.05);
+  }
+}
