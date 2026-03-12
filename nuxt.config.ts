@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   ssr: true,
   app: {
-    baseURL: process.env.NODE_ENV === 'production' ? '/TCGNexus/' : '/'
+    baseURL: '/TCGNexus/'
   },
   modules: [
     '@nuxt/eslint',
