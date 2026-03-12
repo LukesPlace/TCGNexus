@@ -3,7 +3,8 @@ import NewestSet from "~/components/landing/NewestSet.vue";
 import PriceChange from "~/components/landing/PriceChange.vue";
 
 const { data: page } = await useAsyncData("index", () => {
-  return queryCollection("index").first();
+  const result = queryCollection("index").first();
+  return result || {};
 });
 if (!page.value) {
   throw createError({
@@ -23,7 +24,7 @@ useSeoMeta({
 
 <template>
   <UPage v-if="page">
-    <LandingHero :page />
+    <LandingHero :page="page" />
     <UPageSection
       :ui="{
         container: '!pt-0 lg:grid lg:grid-cols-2 lg:gap-8',
@@ -32,8 +33,8 @@ useSeoMeta({
       <NewestSet></NewestSet>
       <PriceChange></PriceChange>
     </UPageSection>
-    <LandingBlog :page />
-    <LandingTestimonials :page />
-    <LandingFAQ :page />
+    <LandingBlog :page="page" />
+    <LandingTestimonials :page="page" />
+    <LandingFAQ :page="page" />
   </UPage>
 </template>

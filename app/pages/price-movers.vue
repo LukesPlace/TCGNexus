@@ -1,6 +1,7 @@
 <script setup lang="ts">
 const { data: page } = await useAsyncData("priceMovers", () => {
-  return queryCollection("priceMovers").first();
+  const result = queryCollection("priceMovers").first();
+  return result || {};
 });
 if (!page.value) {
   throw createError({
@@ -23,8 +24,8 @@ useSeoMeta({
 <template>
   <UPage v-if="page">
     <UPageHero
-      :title="page.title"
-      :description="page.description"
+      :title="page?.title"
+      :description="page?.description"
       :ui="{
         container: 'lg:flex sm:flex-row items-center',
         title: '!mx-0 text-left',

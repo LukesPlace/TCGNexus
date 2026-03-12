@@ -2,10 +2,7 @@
 export default defineNuxtConfig({
   ssr: true,
   app: {
-    baseURL: '/tcg-nexus/'
-  },
-  nitro: {
-    preset: 'github_pages'
+    baseURL: process.env.NODE_ENV === 'production' ? '/TCGNexus/' : '/'
   },
   modules: [
     '@nuxt/eslint',
@@ -26,6 +23,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
 
   nitro: {
+    preset: 'github_pages',
     prerender: {
       routes: [
         '/'
@@ -33,7 +31,6 @@ export default defineNuxtConfig({
       crawlLinks: true
     }
   },
-
   eslint: {
     config: {
       stylistic: {

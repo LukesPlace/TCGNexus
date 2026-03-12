@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { navLinks } from "../utils/links";
+</script>
 
 <template>
   <div>
@@ -9,8 +11,8 @@
         class="hidden lg:block pt-14 absolute left-4 -translate-y-1/2 rounded-full"
       >
         <UColorModeImage
-          light="/icons/TrimmedNexusIcon.png"
-          dark="/icons/TrimmedNexusIconWhite.png"
+          light="icons/TrimmedNexusIcon.png"
+          dark="icons/TrimmedNexusIconWhite.png"
           alt="TCG Nexus Logo"
         />
       </NuxtLink>

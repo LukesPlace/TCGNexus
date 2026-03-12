@@ -1,8 +1,8 @@
 export default defineAppConfig({
   global: {
     picture: {
-      dark: '/icons/TrimmedNexusIconWhite.png',
-      light: '/icons/TrimmedNexusIcon.png',
+      dark: 'icons/TrimmedNexusIconWhite.png',
+      light: 'icons/TrimmedNexusIcon.png',
       alt: 'My profile picture'
     },
     meetingLink: 'https://cal.com/',
