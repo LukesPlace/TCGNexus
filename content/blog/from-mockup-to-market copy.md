@@ -2,12 +2,12 @@
 title: "Why Modern Pokémon TCG Sets Feel Different (And What Collectors Should Know)"
 description: A look at how modern Pokémon TCG set design has evolved, why pull rates feel different, and how collectors can approach new releases more strategically.
 date: 2025-05-12
-image: "/BlogTitle.jpg"
+image: "TCGNexus/BlogTitle.jpg"
 minRead: 6
 author:
   name: TCG Nexus
   avatar:
-    src: "/BlogTitle.jpg"
+    src: "TCGNexus/BlogTitle.jpg"
     alt: TCG Nexus
 ---
 
